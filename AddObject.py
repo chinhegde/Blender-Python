@@ -13,7 +13,7 @@ class TestPanel(bpy.types.Panel):
         row = layout.row()
         row.label(text = "Sample", icon = 'EXPERIMENTAL')
         row.operator('mesh.primitive_cube_add')
-        
+        row.operator('mesh.primitive_uv_sphere_add')
         
         
 def register():
